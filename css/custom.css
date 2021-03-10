@@ -1,0 +1,191 @@
+/* This is custom Css Style Sheet */
+body
+{
+	padding-top:70px; 
+}
+
+footer{
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 2px solid  #4caf50;
+	color: #4caf50;
+	text-align: center;
+}
+
+.glyphicon{
+
+	color :#76ff03;
+}
+.active .glyphicon{
+
+	color:  #ffeb3b;
+} 
+
+.pull-right.img-responsive{
+	margin: 0 0 1em 1em;
+
+}
+
+.btn-info
+{
+	background-color: #4caf50;
+}
+
+
+
+.test
+{
+	margin: 0 0 3em 0;
+}
+
+.btn-info:hover{
+background-color: #004d40;
+
+}
+
+.panel-default > .panel-heading{
+background-color:  #4caf50;
+    border-color: #3F2B22;
+    color: #fff;
+
+}
+
+.breadcrumb > li + li:before {
+  
+    content: none;
+}
+
+.glyphicon-th{
+
+color:#8d6e63;
+
+}
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+/*boder*/
+.loginboder{
+	border: 1px solid black;
+	background-color: #ddd;
+}
+
+/**/
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li:last-child
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    height: 225px;
+}
+
+.panel-body2
+{
+    height: 185px;
+    margin: 15px;
+}
+
+.panel-body3
+{
+    margin: 15px;
+}
+
+.panel-body4
+{
+    margin: 15px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.twitter-typeahead {
+    display: block !important;
+}
+
+.tt-dataset-topics {
+    margin-left: 15px;
+}
+
+.help-buttons {
+    margin-top: 15px;
+}
